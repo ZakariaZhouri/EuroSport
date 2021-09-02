@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/videoStoriFragment">
+    <fragment
+        android:id="@+id/videoStoriFragment"
+        android:name="com.example.eurosport.view.fragments.VideoStoriesFragment"
+        android:label="video_stori_fragment"
+        tools:layout="@layout/videos_stories_fragment">
+        <action
+            android:id="@+id/action_videoStorieFragment_to_storieDetailFragment"
+            app:destination="@id/storieDetailFragment" />
+
+        <action
+            android:id="@+id/action_videoStorieFragment_to_videoReaderFragment"
+            app:destination="@id/videoReaderFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/storieDetailFragment"
+        android:name="com.example.eurosport.view.fragments.StorieDetailsFragment"
+        android:label="storie_detail_fragment"
+        tools:layout="@layout/storie_details_fragment">
+        <argument
+            android:name="mediaDetails"
+            android:defaultValue="@null"
+            app:argType="com.example.eurosport.view.MediaPresentation"
+            app:nullable="true" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/videoReaderFragment"
+        android:name="com.example.eurosport.view.fragments.VideoReaderFragment"
+        android:label="video_reader_fragment"
+        tools:layout="@layout/video_reader_fragment">
+        <argument
+            android:name="mediaDetails"
+            android:defaultValue="@null"
+            app:argType="com.example.eurosport.view.MediaPresentation"
+            app:nullable="true" />
+
+
+    </fragment>
+</navigation>

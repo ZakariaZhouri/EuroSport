@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EuroSport</string>
+    <string name="network_error_message">Erreur au niveau de la communication avec le serveur </string>
+    <string name="video_views">\u00A0Views</string>
+</resources>

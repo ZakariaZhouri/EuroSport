@@ -1,0 +1,42 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "CHRONIQUE FRITSCH",
+      "thumb": "https://i.eurosport.com/2020/01/27/2763745-57096910-2560-1440.jpg",
+      "url": "https://vod-eurosport.akamaized.net/nogeo/2019/10/22/CHRONIQUE_FRITSCH_22102019_V1_22040825-1254400-2300-1024-576.mp4",
+      "date": 1588224445.007,
+      "sport": {
+        "id": 22,
+        "name": "Football"
+      },
+      "views": 12333
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "title": "Tour de France, arr\u00EAt de la L1, Agassi-Sampras, 8 secondes : le plateau du jour",
+      "teaser": "Ce soir, c'est le weekend ! En ce 46e jour de confinement, il y a donc toutes les raisons d'avoir la forme. Surtout qu'il va y avoir de l'actualit\u00E9 ce jeudi. Cerise sur le g\u00E2teau : si vous voulez vous replonger dans les plus belles heures du sport, on a tout ce qu\u2019il faut pour vous. Voici notre plateau matinal.",
+      "image": "https://i.eurosport.com/2020/04/30/2812653-58018086-640-220.jpg",
+      "date": 1588222335.007,
+      "author": "John doe",
+      "sport": {
+        "id": 95,
+        "name": "Omnisport"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Mourad de Toulon : \"Tillous-Borde m\u00E9rite le respect. J'esp\u00E8re que le RCT s'en souviendra\"",
+      "teaser": "Toujours confin\u00E9 \u00E0 son domicile, Mourad Boudjellal est un spectateur attentif du monde du rugby. Gr\u00E2ce \u00E0 son \u00E9pouse Linda et sa fille Roselaine, transform\u00E9es en r\u00E9alisatrices, l'ancien pr\u00E9sident du RCT porte son regard sur l'ouverture de la saison des transferts ou sur le salaire de Pollard \u00E0 Montpellier. Le coup de coeur de la semaine, il est quant \u00E0 lui pour S\u00E9bastien Tilllous-Borde...",
+      "image": "https://i.eurosport.com/2020/04/29/2812626-58017546-640-220.png",
+      "date": 1588224705.843,
+      "author": "Mike Swiss",
+      "sport": {
+        "id": 44,
+        "name": "Rugby"
+      }
+    }
+  ]
+}
